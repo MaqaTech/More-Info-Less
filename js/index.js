@@ -11,37 +11,6 @@ var title = document.querySelector(".title")
 
 
 
-// var user = [
-    
-//     {
-//         name : "Maga",
-//         id: 1
-//     },
-    
-//     {
-//         name:"Ferid",
-//         id: 2
-
-//     },
-    
-//     {
-//         name:"Faig",
-//         id: 3
-//     }
-// ]
-
-
-
-
-
-// user.forEach(element => {
-//     let title_name =document.createElement("h2");
-//     title.appendChild(title_name)
-//     title_name.classList.add('title_name')
-//     title_name.textContent=element.name
-    
-// });
-
 
 
 
@@ -226,56 +195,7 @@ faiqBtn.addEventListener('click', function(){
     faiqBtn.style.borderLeft = '2px solid #2badba';
 });
 
-//  var header = document.querySelector(".buttons");
-//  var btns1 = header.querySelector("btn1");
-//  for (var i = 0; i < btns1.length; i++) {
-//    btns1[i].addEventListener("click", function() {
-//    var current = document.getElementsByClassName("active");
-//    current[0].className = current[0].className.replace(" active", "");
-//    this.className += " active";
-//    });
-//  }
 
-
-
-
-
-
-// const array_btn = [
-
-//     {
-
-//         text: 'MAGA' ,
-
-//     },
-//     {
-//         text: 'FERID' ,
-
-//     },
-
-//     {
-//         text: 'FAIG' ,
-
-//     },
-// ]
-// let btn1 = document.createElement('button')
-// let btn2 = document.createElement('button')
-// let btn3 = document.createElement('button')
-
-// btn1.classList.add('btn')
-// btn2.classList.add('btn')
-// btn3.classList.add('btn')
-// buttons.appendChild(btn1)
-// buttons.appendChild(btn2)
-// buttons.appendChild(btn3)
-// array_btn.forEach(element => {
-    
-// btn1.textContent = element.text
-// btn2.textContent = element.text
-// btn3.textContent = element.text
-
-
-// });
 
 window.addEventListener("load" , function(){  // bu kod winwos u refresh eledikde klik elediyimiz btn daimi yanili galsin
     maqaBtn.click();   
