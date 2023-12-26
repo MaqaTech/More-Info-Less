@@ -162,6 +162,15 @@ feridBtn.addEventListener('click', function(){
     feridBtn.style.borderLeft = '2px solid #2badba'
     maqaBtn.style.borderLeft = '2px solid #fff'
     faiqBtn.style.borderLeft = '2px solid #fff';
+
+    if(morelessbtn.textContent == 'MORE LESS'){
+        
+        moreless.forEach((item) => {  // arraydaki obyektleri bir bir funsiyani teyin etmek ucun
+            item.style.display='none'
+            morelessbtn.textContent='MORE INFO'
+        })
+        
+    }
 });
 
 maqaBtn.addEventListener('click', function(){
@@ -176,6 +185,15 @@ maqaBtn.addEventListener('click', function(){
     feridBtn.style.borderLeft = '2px solid #fff'
     maqaBtn.style.borderLeft = '2px solid #2badba'
     faiqBtn.style.borderLeft = '2px solid #fff';
+
+    if(morelessbtn.textContent == 'MORE LESS'){
+        
+        moreless.forEach((item) => {  // arraydaki obyektleri bir bir funsiyani teyin etmek ucun
+            item.style.display='none'
+            morelessbtn.textContent='MORE INFO'
+        })
+        
+    }
 });
 
 faiqBtn.addEventListener('click', function(){
@@ -190,6 +208,15 @@ faiqBtn.addEventListener('click', function(){
     feridBtn.style.borderLeft = '2px solid #fff'
     maqaBtn.style.borderLeft = '2px solid #fff'
     faiqBtn.style.borderLeft = '2px solid #2badba';
+
+    if(morelessbtn.textContent == 'MORE LESS'){
+        
+        moreless.forEach((item) => {  // arraydaki obyektleri bir bir funsiyani teyin etmek ucun
+            item.style.display='none'
+            morelessbtn.textContent='MORE INFO'
+        })
+        
+    }
 });
 
 
