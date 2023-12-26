@@ -277,3 +277,6 @@ faiqBtn.addEventListener('click', function(){
 
 // });
 
+window.addEventListener("load" , function(){  // bu kod winwos u refresh eledikde klik elediyimiz btn daimi yanili galsin
+    maqaBtn.click();   
+})
