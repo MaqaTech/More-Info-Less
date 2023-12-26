@@ -1,0 +1,134 @@
+*{
+    
+    font-family:   Arial, sans-serif;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    h1{
+        border-bottom: 4px solid #2badba;
+        width: 5%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+   
+    }
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+    margin-top: 10%;
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    .btn1{
+        padding: 10px 30px;
+        background-color: #fff;
+        border: none;
+        transition: 0.3s all ease ;
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        &:hover{
+            color: #2badba;
+            border-left: 2px solid #2badba;
+        }
+    }
+    .btn2{
+        padding: 10px 30px;
+        background-color: #fff;
+        border: none;
+        transition: 0.3s all ease ;
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        &:hover{
+            color: #2badba;
+            border-left: 2px solid #2badba;
+        }
+      
+
+    }
+    .btn3{
+        padding: 10px 30px;
+        background-color: #fff;
+        border: none;
+        transition: 0.3s all ease ;
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        &:hover{
+            color: #2badba;
+            border-left: 2px solid #2badba;
+        }
+
+    }
+}
+.texts{
+    width: 75%;
+}
+.title{
+    
+    .title_name1{
+        color: #6c879e;
+        background-color: #dde1e8;
+        border-radius: 3px;
+        text-align: center;
+        width: 10%;
+        display: none;
+    }
+    .title_name2{
+        color: #6c879e;
+        background-color: #dde1e8;
+        border-radius: 3px;
+        text-align: center;
+        width: 10%;
+        display: none;
+    }
+    .title_name3{
+        color: #6c879e;
+        background-color: #dde1e8;
+        border-radius: 3px;
+        text-align: center;
+        width: 10%;
+        display: none;
+    }
+    .icon-and-type{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .icons{
+        color: #2badba;
+        font-size: 25px;
+    }
+    .moreless{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        display: none;
+    }
+}
+.btnclasi{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+// width: 60rem;
+        .morelessbtn{
+        background-color: #2badba;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        padding: 10px 50px;
+    }
+}
+// .active{
+//     color: #2badba;
+//     border-left:2px solid #2badba;
+// }
+}
