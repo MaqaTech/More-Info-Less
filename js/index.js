@@ -128,7 +128,7 @@ var morelessbtn = document.querySelector('.morelessbtn')
 var moreless = document.querySelectorAll('.moreless') // [1, 2, 3, 4, 5].style
 
 
-morelessbtn.addEventListener('click', function(){
+morelessbtn.addEventListener('click', function a() {
     if (morelessbtn.textContent == 'MORE INFO'){
         moreless.forEach((item) => {
             item.style.display='flex'
@@ -155,7 +155,6 @@ feridBtn.addEventListener('click', function(){
     btntitle3.style.display = 'none';
     btntitle2.style.display = 'block';
 
-    // Apply scale transformation
     feridBtn.style.color = '#2badba';
     maqaBtn.style.color= 'black';
     faiqBtn.style.color = 'black';
@@ -170,7 +169,6 @@ maqaBtn.addEventListener('click', function(){
     btntitle3.style.display = 'none';
     btntitle1.style.display = 'block';
 
-    // Apply scale transformation
     feridBtn.style.color = 'black';
     maqaBtn.style.color= '#2badba';
     faiqBtn.style.color = 'black';
@@ -184,8 +182,7 @@ faiqBtn.addEventListener('click', function(){
     btntitle1.style.display = 'none';
     btntitle2.style.display = 'none';
     btntitle3.style.display = 'block';
-
-    // Apply scale transformation
+    
     feridBtn.style.color = 'black';
     maqaBtn.style.color= 'black';
     faiqBtn.style.color = '#2badba';
